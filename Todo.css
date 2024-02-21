@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container{
+  
+    justify-content: space-between;
+    height: auto;
+    min-height: 400px;
+    width: 300px;
+    
+    background-color: #7202;
+   position: relative;
+   left: 450px;
+   top: 100px;
+   border-radius: 15px;
+   padding: 15px;
+}
+.Add_Items{
+   
+    position: relative;
+    left: 20px;
+    top: -5px;
+    height: fit-content;
+    background:orangered;
+    border-radius: 5px;
+    color: white;
+}
+#btn2{
+    position: relative;
+    left: 170px;
+}
+.head
+{
+    display: fle;
+
+}
+.body{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    height: 20px;
+    width: 50px;
+    background: orangered;
+    border-radius: 5px;
+    color:black;
+    /* margin:  30px;  */
+    /* padding:10px 10px; */
+   
+
+}
+
+.clear{
+    margin-top: 20px;
+}
+.li_part{
+    display: inline;
+    margin-top: 25px;
+   
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 1px grey;
+    
+    
+}
+span{
+    padding-right: 60px;
+    margin-top: 25px;
+}
+
+.button_part{
+    display: flex;
+    flex-direction: row;
+   
+    
+   
+}
+input{
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-left: 15px;
+    background-color: rgba(128, 128, 128, 0.362);
+    
+}
+input::placeholder{
+   color: white;
+}
